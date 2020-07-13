@@ -11,4 +11,4 @@ def loop_message_n_times(message, number)
 
 end
 
-loop_message_n_times
+loop_message_n_times(message, number)
