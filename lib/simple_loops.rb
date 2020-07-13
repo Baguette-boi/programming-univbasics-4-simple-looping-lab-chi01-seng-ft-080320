@@ -1,12 +1,7 @@
 def loop_message_five_times(message)
-  message = "Hello World.\n"
-  
-  puts message * 5
+ count = 0
+ while count < 5
+ puts message
+ count += 1
 end
-
-def loop_message_n_times(message, number)
-  message = "Hello Moon.\n"
-  number = 5
- puts "#{message} #{number}" * 5
-
 end
