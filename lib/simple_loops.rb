@@ -8,5 +8,5 @@ def loop_message_n_times(message, number)
   message = "Hello Moon.\n"
   number = "5"
   
-  puts "#{message} to be output #{number} times."
+  puts "#{message} to be output #{number} times." * 5
 end
