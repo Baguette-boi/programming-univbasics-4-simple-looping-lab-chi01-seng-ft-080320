@@ -10,3 +10,5 @@ def loop_message_n_times(message, number)
  puts "#{message} #{number}" * 5
 
 end
+
+loop_message_n_times
