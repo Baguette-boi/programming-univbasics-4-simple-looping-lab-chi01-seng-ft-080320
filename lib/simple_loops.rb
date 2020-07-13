@@ -8,6 +8,6 @@ def loop_message_n_times(message, number)
   message = "\nHello Moon."
   number = 5
 
-message * number
-
 end
+
+loop_message_n_times(message, number)
