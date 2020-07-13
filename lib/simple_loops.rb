@@ -8,6 +8,6 @@ def loop_message_n_times(message, number)
   message = "Hello Moon."
   number = "5"
   
-  puts "\n'#{message}' to be output #{number} times" * 5
+  puts "\nExpected '#{message}' to be output #{number} times" * 5
 
 end
